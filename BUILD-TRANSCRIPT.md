@@ -23,8 +23,8 @@ entries_made 0 for this competition.
   copied from the 20261120 entry or any other entry: no earlier entry
   file was read during this build, and the poster PNG was rendered
   fresh by this program.
-- Poster: 1024×1024 PNG, 37,911 bytes,
-  sha256 `c37caf0100c75a39f4de18022044cd46e55e4c6eba44389db4100a1921737ab2`.
+- Poster: 1024×1024 PNG, 37,881 bytes,
+  sha256 `24fa33e7d0fd6a5d4e4de8608e64c55a8ca7820d18ea08b4f885c31b51c04a71` (re-rendered after the Anthropic $81.3B fix; the first render was 37,911 bytes, sha256 `c37caf0100c75a39f4de18022044cd46e55e4c6eba44389db4100a1921737ab2`).
   Determinism re-tested: two `python3 main.py` runs byte-identical.
 - Visual check: first render showed 3 truncated card bodies and a
   missing lowercase "v" (font is uppercase-only); fixed the bodies,
